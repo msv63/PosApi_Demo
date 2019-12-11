@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Касса</string>
+    <string name="error">ОШИБКА</string>
+    <string name="run_button">Оплата</string>
+    <string name="stop_button">Прервать</string>
+    <string name="zero_code">Нулевой код ответа!</string>
+    <string name="about">О программе</string>
+    <string name="logfile">Показать лог</string>
+    <string name="settings">Настройки</string>
+    <string name="log">Лог</string>
+    <string name="clear_log">Очистить лог</string>
+    <string name="connection_title">Тип подключения</string>
+    <string name="log_title">Имя лог-файла</string>
+    <string name="open_failed">Нет связи с терминалом</string>
+    <string name="description_about">Демонстрационная программа для работы с библиотекой PosApi для кассы.</string>
+</resources>

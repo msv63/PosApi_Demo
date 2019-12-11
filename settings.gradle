@@ -1,0 +1,2 @@
+include ':app', ':posapi-release'
+rootProject.name='PosApi Demo'

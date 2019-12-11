@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/run_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:cursorVisible="false"
+        android:onClick="onRun"
+        android:text="@string/run_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/output"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:gravity="bottom|start"
+        android:inputType="none"
+        android:singleLine="false"
+        android:text=""
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/run_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
